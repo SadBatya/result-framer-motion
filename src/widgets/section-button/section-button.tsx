@@ -4,7 +4,7 @@ import style from "./section-button.module.css";
 export const SectionButtons = () => (
   <Section>
     <div className={style.before}>
-      <FramerButton className={style.button}>Жмякни</FramerButton>
+      <FramerButton className={style.button}>CSS Styles</FramerButton>
     </div>
     <div className={style.after}>
       <FramerButton
@@ -12,7 +12,7 @@ export const SectionButtons = () => (
         whileTap={{ scale: 0.9 }}
         className={style.button}
       >
-        Жмякни тут
+        Framer motion
       </FramerButton>
     </div>
   </Section>
