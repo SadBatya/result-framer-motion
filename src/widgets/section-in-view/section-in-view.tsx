@@ -2,6 +2,9 @@ import { useRef } from "react";
 import { Section } from "@/shared/ui";
 import style from "./section-in-view.module.css";
 import { useInView, motion } from "motion/react";
+import tgVladilen from "@/assets/tg_vladilen.png";
+import tgResult from "@/assets/tg-result.png";
+import github from "@/assets/github.png";
 
 export const SectionInView = () => {
   const ref = useRef(null);
@@ -32,7 +35,20 @@ export const SectionInView = () => {
         >
           Вопросы ?
         </motion.h2>
-        <div></div>
+        <div className={style.links}>
+          <div className={style.qr__container}>
+            <h4 className={style.link__title}>Телеграм Владилен</h4>
+            <img className={style.qr} src={tgVladilen} alt="" />
+          </div>
+          <div className={style.qr__container}>
+            <h4 className={style.link__title}>Телеграм Result</h4>
+            <img className={style.qr} src={tgResult} alt="" />
+          </div>
+          <div className={style.qr__container}>
+            <h4 className={style.link__title}>Ссылка на репозиторий</h4>
+            <img className={style.qr} src={github} alt="" />
+          </div>
+        </div>
       </div>
     </Section>
   );

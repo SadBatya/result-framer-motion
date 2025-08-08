@@ -1,6 +1,14 @@
 .section {
   position: relative;
   height: 100vh;
+  z-index: 50;
+}
+
+@media (max-width: 720px) {
+  .section {
+    height: auto;
+    padding: 40px 0;
+  }
 }
 
 .overlay {
@@ -11,8 +19,35 @@
   opacity: 30%;
   transform-origin: left;
   left: 0;
+  z-index: -1;
 }
 
 .title {
   font-size: 48px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .links {
+    flex-direction: column;
+  }
+}
+
+.qr {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex: 1;
+  max-width: 300px;
+}
+
+.link__title {
+  font-size: 24px;
+  text-align: center;
 }
