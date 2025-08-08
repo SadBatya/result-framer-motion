@@ -1,4 +1,5 @@
 export { SectionWelcome } from "./section-welcome/section-welcome";
+export { SectionAboutMe } from "./section-about-me/section-about-me";
 export { SectionButtons } from "./section-button/section-button";
 export { SectionNavigation } from "./section-navigation/section-navigation";
 export { SectionText } from "./section-text/section-text";

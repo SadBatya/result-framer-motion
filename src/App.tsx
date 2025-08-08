@@ -1,6 +1,7 @@
 import "./App.css";
 import {
   SectionWelcome,
+  SectionAboutMe,
   SectionButtons,
   SectionNavigation,
   SectionText,
@@ -15,6 +16,7 @@ function App() {
     <>
       <ProgressBar />
       <SectionWelcome />
+      <SectionAboutMe />
       <SectionButtons />
       <SectionText />
       <SectionNavigation />
