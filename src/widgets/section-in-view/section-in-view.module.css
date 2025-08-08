@@ -1,0 +1,18 @@
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.overlay {
+  background-color: rgb(26, 171, 164);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 30%;
+  transform-origin: left;
+  left: 0;
+}
+
+.title {
+  font-size: 48px;
+}

@@ -1,0 +1,52 @@
+.section {
+  justify-content: space-evenly;
+}
+
+.container {
+  border: 1px solid white;
+  padding: 20px 50px;
+  border-radius: 12px;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  padding: 0;
+  position: relative;
+}
+
+.navigation__list_item {
+  cursor: pointer;
+  padding: 12px;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s all;
+}
+
+.navigation__list_item_custom {
+  position: relative;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.underline {
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2;
+  background: white;
+}
+
+.active__tab {
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin: 0 auto;
+}
