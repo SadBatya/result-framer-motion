@@ -6,3 +6,4 @@ export { SectionText } from "./section-text/section-text";
 export { SectionDrag } from "./section-drag/section-drag";
 export { SectionReorder } from "./section-reorder/section-reorder";
 export { SectionInView } from "./section-in-view/section-in-view";
+export { SectionPlan } from "./section-plan/section-plan";

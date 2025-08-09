@@ -8,6 +8,7 @@ import {
   SectionDrag,
   SectionReorder,
   SectionInView,
+  SectionPlan,
 } from "./widgets";
 import { ProgressBar } from "./shared/ui";
 
@@ -17,6 +18,7 @@ function App() {
       <ProgressBar />
       <SectionWelcome />
       <SectionAboutMe />
+      <SectionPlan />
       <SectionButtons />
       <SectionText />
       <SectionNavigation />
