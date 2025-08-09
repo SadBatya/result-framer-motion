@@ -4,7 +4,7 @@ import {
   SectionAboutMe,
   SectionButtons,
   SectionNavigation,
-  SectionText,
+  // SectionText,
   SectionDrag,
   SectionReorder,
   SectionInView,
@@ -20,7 +20,7 @@ function App() {
       <SectionAboutMe />
       <SectionPlan />
       <SectionButtons />
-      <SectionText />
+      {/* <SectionText /> */}
       <SectionNavigation />
       <SectionDrag />
       <SectionReorder />
