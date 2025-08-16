@@ -39,6 +39,20 @@
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
   border-bottom: 130px solid red;
+  position: relative;
+}
+
+.box:nth-child(2)::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 110px solid black;
+  position: absolute;
+  bottom: -125px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .box:nth-child(1) {
