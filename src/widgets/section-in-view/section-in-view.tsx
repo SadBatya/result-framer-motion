@@ -6,6 +6,29 @@ import tgVladilen from "@/assets/tg_vladilen.png";
 import tgResult from "@/assets/tg-result.png";
 import github from "@/assets/github.png";
 
+const links = [
+  {
+    text: "TailwindCSS",
+    href: "https://tailwindcss.com/",
+  },
+  {
+    text: "Tanstack Query",
+    href: "https://tanstack.com/query/latest",
+  },
+  {
+    text: "Swiper Slider",
+    href: "https://swiperjs.com/",
+  },
+  {
+    text: "Embla Slider",
+    href: "https://embla-carousel.com/",
+  },
+  {
+    text: "Framer Motion",
+    href: "https://motion.dev/",
+  },
+];
+
 export const SectionInView = () => {
   const ref = useRef(null);
   const inView = useInView(ref);
@@ -49,6 +72,16 @@ export const SectionInView = () => {
             <img className={style.qr} src={github} alt="" />
           </div>
         </div>
+        <h2 className={style.title}>Полезная документация</h2>
+        <ul className={style.list__documents}>
+          {links.map((link, index) => (
+            <li key={index}>
+              <a target="_blank" href={link.href}>
+                {link.text}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </Section>
   );
