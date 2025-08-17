@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.navigation__item {
+  border-bottom: 1px solid transparent;
+  padding: 8px 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.underline {
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
